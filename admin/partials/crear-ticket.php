@@ -101,7 +101,7 @@ else{
     {
         $pdf->SetFont('Helvetica', '', 7);
         $pdf->MultiCell(28,4,$detalle['detalle'],0,'L'); 
-        $pdf->Cell(35, -5, '2',0,0,'R');
+        $pdf->Cell(35, -5, $detalle['cantidad'],0,0,'R');
         $pdf->Cell(10, -5, number_format($detalle['precio'], 2, '.', ' '),0,0,'R');
         $pdf->Cell(15, -5, PEN." ".number_format($detalle['importe'], 2, '.', ' '),0,0,'R');
         $pdf->Ln(2);       
