@@ -147,3 +147,17 @@ function refrescarPagina()
 {
     window.location.href="manage-order.php";
 }
+
+$('#busqueda_pedido').on("change",function(){
+    buscar=$(this).val();
+    $.ajax({
+        url:'partials/busqueda-tabla-pedido.php',
+        type:'GET',
+        data:{
+            buscar:buscar
+        },
+        success:function(respuesta){
+            $("#tabla-pedidos-form").html(respuesta)
+        }
+    })
+})

@@ -140,6 +140,16 @@ else{
 							</button>
 						</h2>
 						<div class="table-responsive" id="pedido-reporte">
+							<div class="form-horizontal">
+								<div class="form-group row">
+									<label for="nombre_cliente" class="col-md-2 control-label hor-form">B&uacute;squeda</label>
+									<div class="col-md-8">
+										<input type="text" class="form-control" id="busqueda_pedido" name="busqueda_pedido" 
+											placeholder="Ingrese Cliente a Buscar" >
+									</div>
+								</div>
+							</div>
+							<div id="tabla-pedidos-form">
 						<table style="text-align: center;" id="table-pedido">
 							<thead>
 								<tr>
@@ -194,7 +204,8 @@ else{
 									<li class="<?= $pagina == $p ? 'active' : ''; ?>"><a href="<?= '?pagina='.$p; ?>"><?= $p; ?></a></li>
 								<?php }?>
 								<li><a href="?pagina=<?= $total_paginas; ?>">&Uacute;ltimo</a></li>
-							</ul> 
+							</ul>
+								</div>
 						</div>
 					</div>
 					<!-- script-for sticky-nav -->
