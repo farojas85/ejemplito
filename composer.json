@@ -1,0 +1,11 @@
+{
+    "name": "wado/wado",
+    "description": "Sistema Ventas Comida",
+    "type": "project",
+    "license": "MIT",
+    "require": {
+        "giansalex/peru-consult": "^4.1",
+        "dompdf/dompdf": "^0.8.6",
+        "fpdf/fpdf": "^1.82"
+    }
+}
