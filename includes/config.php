@@ -1,9 +1,13 @@
 <?php 
 // DB credentials.
-define('DB_HOST','localhost');
-define('DB_USER','root');
-define('DB_PASS','');
-define('DB_NAME','wado');
+// define('DB_HOST','localhost');
+// define('DB_USER','root');
+// define('DB_PASS','');
+// define('DB_NAME','wado');
+define('DB_HOST','bgpsoa6syperyxgneahk-mysql.services.clever-cloud.com');
+define('DB_USER','u5re7qp56uh5x8oi');
+define('DB_PASS','iT7dKDLRPBzqKzRl39rU');
+define('DB_NAME','bgpsoa6syperyxgneahk');
 // Establish database connection.
 try
 {
