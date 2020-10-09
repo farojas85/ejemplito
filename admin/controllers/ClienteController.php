@@ -18,6 +18,7 @@ if(isset($_POST['accion']) || !empty($_POST['accion']))
         case 'registrar-cliente': $clientecontroller->guardarCliente($dbh);break;
     }
 }
+
 if(isset($_GET['accion']) || !empty($_GET['accion']))
 {
     switch($_GET['accion'])
@@ -26,6 +27,7 @@ if(isset($_GET['accion']) || !empty($_GET['accion']))
         case 'seleccionar-cliente': $clientecontroller->seleccionarCliente($dbh);break;
     }
 }
+
 class ClienteController
 {
     public function validarDocumento()

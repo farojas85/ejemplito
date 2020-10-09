@@ -42,6 +42,7 @@ else{
 
 
     $pdf = new FPDF('P','mm',array(80,200)); // Tamaño tickt 80mm x 150 mm (largo aprox)
+
     $pdf->AddPage();
 
     $pdf->image('../images/logo_black.png',16,2,40,20);

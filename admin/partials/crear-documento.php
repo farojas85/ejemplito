@@ -43,6 +43,8 @@ else{
 
     $pdf = new FPDF('L','mm','A5'); // Tamaño tickt 80mm x 150 mm (largo aprox)
     //$pdf->SetMargins(30, 25 , 30);
+    //Landscape => Horizontal
+    //Portrait => Vertical
 
     $pdf->AddPage();
 
